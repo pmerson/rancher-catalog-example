@@ -35,3 +35,8 @@
       description: "Nome do ambiente"
       required: true
       type: "string"
+    - variable: "VOLUME_NAME"
+      label: "Name of the volum of the Mysql container"
+      description: "Name of the volum of the Mysql container"
+      required: true
+      type: "string"
