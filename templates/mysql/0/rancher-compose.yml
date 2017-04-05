@@ -4,14 +4,14 @@
   description: "My MYSQL Application Catalog"
   questions: 
     - variable: "MYSQL_ROOT_PASSWORD"
-      label: "Mysql root password"
-      description: "Password for the mysql root user"
+      label: "Mysql senha root"
+      description: "Senha para usuário root do mysql"
       required: true
       type: "password"
       default: password
     - variable: "MYSQL_DATABASE"
-      label: "Mysql database name"
-      description: "Database name"
+      label: "Mysql database"
+      description: "nome do banco de dados"
       required: true
       type: "string"
     - variable: "MYSQL_USER"
@@ -28,5 +28,10 @@
     - variable: "HOST_MYSQL_PORT"
       label: "Port to be exposed on the host"
       description: "Port that is going to be exposed in the host"
+      required: true
+      type: "string"
+    - variable: "AMBCOMP"
+      label: "Ambiente computacional"
+      description: "Nome do ambiente"
       required: true
       type: "string"

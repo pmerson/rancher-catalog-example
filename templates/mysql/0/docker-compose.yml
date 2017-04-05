@@ -6,6 +6,7 @@ mysql:
         - MYSQL_DATABASE=${MYSQL_DATABASE}
         - MYSQL_USER=${MYSQL_USER}
         - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+        - AMBCOMP=TESTE
     volumes:
         - mysqldata:/var/lib/mysql
     ports:
