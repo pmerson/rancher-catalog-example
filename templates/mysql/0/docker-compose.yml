@@ -7,7 +7,7 @@ mysql:
         - MYSQL_USER=${MYSQL_USER}
         - MYSQL_PASSWORD=${MYSQL_PASSWORD}
     volumes:
-        - mysqldata:/var/lib/mysql
+        - ${VOLUME_NAME}:/var/lib/mysql
     ports:
         - ${HOST_MYSQL_PORT}:3306
 
